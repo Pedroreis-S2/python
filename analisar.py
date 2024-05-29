@@ -1,0 +1,7 @@
+text = input("digite algo: ")
+print("o tipo do texto digitado é {}".format(type(text)))
+print("só tem espaços? {}".format(text.isspace()))
+print("Esta em maiusculo {}".format(text.isupper()))
+print("Esta em minusculo {}".format(text.islower()))
+print("É numerico?", text.isnumeric())
+print("É alfabetico?", text.isalpha())
